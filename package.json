@@ -1,13 +1,14 @@
 {
-  "name": "starter-micro-api",
+  "name": "nodejs-proxy",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "http-proxy": "latest",
+    "ws": "^8.13.0"
   }
 }
