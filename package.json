@@ -1,12 +1,13 @@
 {
-  "name": "my-project",
+  "name": "starter-micro-api",
   "version": "1.0.0",
-  "description": "M",
+  "description": "Cyclic.sh micro api starter",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "child_process": "^1.0.2"
   }
 }
